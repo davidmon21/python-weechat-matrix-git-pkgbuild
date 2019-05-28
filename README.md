@@ -1,0 +1,1 @@
+python-weechat-matrix-git
