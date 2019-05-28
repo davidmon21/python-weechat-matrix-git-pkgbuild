@@ -1,0 +1,17 @@
+pkgbase = weechat-python3-matrix-git
+	pkgdesc = Python3/2 plugin for Weechat to communicate over the Matrix protocol
+	pkgver = r634.bdab5c8
+	pkgrel = 0.1
+	url = https://github.com/poljar/weechat-matrix
+	arch = x86_64
+	license = custom
+	makedepends = git
+	provides = python-weechat-matrix
+	provides = python2-weechat-matrix
+	conflicts = python-weechat-matrix
+	conflicts = python2-weechat-matrix
+	source = weechat-matrix::git+https://github.com/poljar/weechat-matrix.git
+	md5sums = SKIP
+
+pkgname = weechat-python3-matrix-git
+
